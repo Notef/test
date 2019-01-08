@@ -1,0 +1,51 @@
+#header {
+	background-color:#f00;
+	
+	
+}
+
+#left {
+	background-color:#0f0;
+	width: 500px;
+	float: left;
+}
+
+#right{
+	background-color:#00f;
+	width: 500px;
+	float: right
+}
+#down{
+	background-color:blue
+	width: 500px;
+	clear: both;
+	
+	
+}
+
+.flex{
+    display:inline-flex;
+    height:60px;
+    margin:5px 5px 40px;
+    border:1px solid #000;
+    vertical-align: top;
+}
+.flex-300{
+    width:300px;
+}
+.flex-150{
+    width:80px;
+}
+.item{
+    height:60px;
+    text-align: center;
+    line-height: 50px;
+}
+.item1{
+    flex:1 2 200px;
+    background:#c00;
+}
+.item2{
+    flex:2 1 100px;
+    background:#069;
+}
